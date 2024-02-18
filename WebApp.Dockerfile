@@ -28,4 +28,4 @@ COPY --from=frontend /home/node/app/static  /usr/src/app/static/
 WORKDIR /usr/src/app  
 EXPOSE 80  
 
-CMD ["gunicorn", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "-b", "0.0.0.0:80", "app:app"]
+CMD ["gunicorn", "-b", "0.0.0.0:80", "app:app"]
