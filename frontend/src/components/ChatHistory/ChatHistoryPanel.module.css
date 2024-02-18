@@ -1,6 +1,7 @@
 .container {
     max-height: calc(100vh - 100px);
     width: 300px;
+    background-color: #E6E6E6;
     
 }
 

@@ -120,7 +120,7 @@
 }
 
 .chatMessageErrorContent {
-    font-family: "Segoe UI";
+    font-family: "Arial";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -220,7 +220,7 @@
     height: 20px;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 10px;
     line-height: 20px;
     display: flex;
     align-items: center;
